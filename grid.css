@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    display: grid;
+    grid-template-columns: ;
+}
+main div{
+    padding: 2em;
+    text-align: center;
+
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+
+}
+.second{
+    background-color: hsl(44, 90%, 49%);
+    grid-area: b;
+}
+.third{
+    background-color: hsl(179, 100%, 13%)
+    grid-area: c;
+}
+.fourth{
+    background-color: hsl(179, 100%, 13%)
+    grid-area: d;
+}
+.fifth{
+    background-color: hsl(179, 100%, 13%)
+    grid-area: e;
+}
